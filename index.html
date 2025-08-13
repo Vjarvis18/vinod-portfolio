@@ -72,6 +72,12 @@
     footer{padding:28px 0;color:var(--muted)}
     .footer-links a{margin-right:14px}
     .qr{border:1px dashed #334155;border-radius:14px;padding:12px;text-align:center}
+    .logo-img {
+      width: 38px;
+      height: 38px;
+      border-radius: 8px; /* make rounded corners if you want */
+      object-fit: cover; /* ensures it doesn't stretch */
+          }
   </style>
 </head>
 <body>
@@ -79,7 +85,7 @@
     <div class="container">
       <nav>
         <div class="brand">
-          <div class="logo" aria-hidden="true"></div>
+          <img src="https://lh3.googleusercontent.com/a/ACg8ocIM1xayNWjBSgCGTvB6skpPMfk0Lw1Qr7a3zzevvy8sfzDUrKU=s288-c-no" alt="Vinod Dinesh More logo" class="logo-img">
           <h1>Vinod Dinesh More</h1>
         </div>
         <div class="navlinks" aria-label="Primary">
@@ -230,7 +236,7 @@
           </article>
 
           <article class="project card">
-            <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38?q=80&w=1600&auto=format&fit=crop" alt="Evacuation modeling" />
+            <img src="https://cdn.britannica.com/65/179765-138-EC877C2A.jpg" alt="Evacuation modeling" />
             <h3>Tsunami & Earthquake Evacuation Modeling</h3>
             <p>Agent-based simulations (Mesa/NetLogo) using OSM & hazard datasets to optimize routes and support emergency planning for coastal/seismic regions.</p>
             <div class="chips">
